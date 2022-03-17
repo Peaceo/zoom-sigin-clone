@@ -1,0 +1,55 @@
+.header{
+    font-size: 1.2rem;
+    font-weight: 700;    
+    background-color: $color-background;
+    height: 7vh;
+    text-transform: uppercase;
+    position: relative;  
+    &__support{                
+        position: absolute;
+        right: 4rem;
+        top: 1.6rem;        
+    }
+
+    &__support-box{
+        text-align: center;
+        list-style: none;
+    }
+
+    &__logo-box{
+        // margin: 2rem 0;
+    }
+    
+    &__logo{
+        height: 2rem;
+        // margin-top: 2rem;
+        padding-left: 3rem;
+    }
+    
+    &__left-box{        
+        position: absolute;
+        top: 4rem;
+        left: 5rem;
+        color: #aaa;
+        margin-top: 2rem;             
+    }
+    
+    &__pricing{
+        text-align: center;
+        list-style: none;
+    }
+
+    &__right-box{
+        position: absolute;
+        top: 4.6rem;
+        right: 5rem;
+        color: #4b8bda;
+        margin-top: -1rem;           
+    }
+
+    &__row{
+        // border: 1px solid red;
+        width: 100%;
+    }
+    
+}

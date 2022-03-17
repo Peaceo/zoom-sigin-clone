@@ -1,0 +1,75 @@
+.support-address{
+    display: inline-block;
+    &:not(:last-child){
+        margin-right: 1.5rem;
+        
+    }        
+}
+
+.contact-list{
+    display: inline-block;
+    margin-left: 1rem;    
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #c1c1c1;
+}
+.heading-secondary{
+    font-size:2rem;    
+    font-weight: 300;
+    letter-spacing: .1rem;
+    display:inline-block;   
+    color: $color-primary;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+   
+}
+/* .heading-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+} */
+.heading-primary{
+    color: #676869;
+    
+
+    &-main{
+        display: block;
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: .4rem;
+        text-transform: uppercase;
+     
+    
+    }
+    &-sub{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        // letter-spacing: 1.4rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        
+    
+    }
+    &-base{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-transform: capitalize;
+        
+    
+    }
+}

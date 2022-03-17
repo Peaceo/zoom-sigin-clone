@@ -1,0 +1,47 @@
+.btn{
+    &,
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: block;
+        border-radius: .7rem;
+        transition: all 1s;
+        // position: relative; 
+        // display for <button> element
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    &:hover{
+        color: $color-white;
+        background-color: #0099ff;
+    }
+  
+    
+}
+.btn-orange{
+    background-color: $color-tertiary;
+    color: $color-white;
+    border-radius: 16px;
+    
+    &:hover{
+        background-color: #f24b21;
+    }
+}
+.btn-class{
+    background-color: $color-secondary;
+    color: $color-white;  
+    height: auto; 
+    width: 87%!important;
+    &::after{
+    background-color: $color-white;
+    }
+}

@@ -1,0 +1,42 @@
+.footer{
+    background-color: $color-background;
+    color: $color-white;
+    // padding: 5rem 0;
+    font-size: 1.2rem;
+    
+
+    &__navigation{
+        margin: 1rem;
+    }
+
+    &__nav-title{
+        padding: 1rem 0;
+        
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        display: inline-block;
+        &:not(:last-child){
+            margin-right: 10rem;            
+            display: inline-block;
+            // padding-right: 16rem;
+        }
+    }
+    &__link{
+        &:link, 
+        &:visited{
+            color: $color-white;            
+            text-decoration: none;
+            display: inline-block;
+            
+            transition: all, .2s;
+        }
+    }
+}
+       
